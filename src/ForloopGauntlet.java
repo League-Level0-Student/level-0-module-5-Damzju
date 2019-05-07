@@ -71,19 +71,39 @@ Write nested for loops (a for loop inside another for loop) to do the following:
           7  8  9
 
 		 */
-		for (int i = 1; i <= 3; i++) {
-			System.out.println(i +" " + (i+1)+ " " + (i+2));
+		for (int i = 0; i <= 2; i++) {
+			for (int j = 0; j <= 2; j++) {
+				System.out.print((i*3+j+1));
+			}
+			System.out.println();
 		}
 		/*
 		 * 3. Display the numbers 1 through 100 in a 10x10 square grid.
 		 * 
-		 * 
+		 */
+		for (int i = 0; i <= 9; i++) {
+			for (int j = 0; j <= 9; j++) {
+				System.out.print(i*10+j+1);
+			}
+			System.out.println();
+		}
+		/*
 		 * 4. Display the following output:
 		 * 
-		 * 
-		 * /////// * ////// * * //// * * * /// * * * * // * * * * * / * * * * * *
-		 * 
-		 */
+		  *
+          *  *
+          *  *  *
+          *  *  *  *
+          *  *  *  *  *
+          *  *  *  *  *  *
+
+		*/
+		for (int i = 0; i <= 200; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
 
 }
