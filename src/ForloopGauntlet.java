@@ -98,7 +98,7 @@ Write nested for loops (a for loop inside another for loop) to do the following:
           *  *  *  *  *  *
 
 		*/
-		for (int i = 0; i <= 6; i++) {
+		for (int i = 0; i <= 50; i++) {
 			for (int j = 0; j < i; j++) {
 				System.out.print("* ");
 			}
