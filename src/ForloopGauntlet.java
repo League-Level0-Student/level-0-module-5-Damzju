@@ -73,7 +73,7 @@ Write nested for loops (a for loop inside another for loop) to do the following:
 		 */
 		for (int i = 0; i <= 2; i++) {
 			for (int j = 0; j <= 2; j++) {
-				System.out.print((i*3+j+1));
+				System.out.print((i*3+j+1+" "));
 			}
 			System.out.println();
 		}
@@ -83,7 +83,7 @@ Write nested for loops (a for loop inside another for loop) to do the following:
 		 */
 		for (int i = 0; i <= 9; i++) {
 			for (int j = 0; j <= 9; j++) {
-				System.out.print(i*10+j+1);
+				System.out.print(i*10+j+1+ " ");
 			}
 			System.out.println();
 		}
@@ -98,12 +98,13 @@ Write nested for loops (a for loop inside another for loop) to do the following:
           *  *  *  *  *  *
 
 		*/
-		for (int i = 0; i <= 200; i++) {
+		for (int i = 0; i <= 6; i++) {
 			for (int j = 0; j < i; j++) {
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
 	}
 
+	
 }
